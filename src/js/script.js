@@ -1,4 +1,5 @@
-
+const links = Array.from(document.querySelectorAll('a[href=#'));
+links.forEach(link => link.addEventListener('click', e => e.preventDefault()));
 isWebp();
 function isWebp(){
     function testWebP(callback) {

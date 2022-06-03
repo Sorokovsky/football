@@ -7,9 +7,14 @@
     box-sizing: border-box;
 }
 img{
+    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.image{
+    width: 100%;
+    height: auto;
 }
 a{
     color: inherit;
@@ -18,6 +23,7 @@ a{
     line-height: inherit;
     font-style: italic;
     text-decoration: none;
+    font-style: normal;
 }
 ol,ul,li{
     color: inherit;
@@ -37,6 +43,7 @@ body{
     max-width: $maxWidthContainer +px;
     margin: 0 auto;
     background: #ffffff;
-    padding: 0 14px;
+    padding: 25px 14px;
 }
 @import './header.scss';
+@import "./about.scss";
