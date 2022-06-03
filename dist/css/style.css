@@ -163,6 +163,11 @@ body {
   color: #39930d;
 }
 
+.footer {
+  background: #39930d;
+  color: #fff;
+}
+
 @media (max-width: 886px) {
   .about {
     -webkit-box-orient: vertical;
