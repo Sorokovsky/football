@@ -62,7 +62,7 @@ body {
   display: block;
 }
 
-.header__left h1 {
+.header__title  {
   font-size: 22px;
   margin-bottom: 14px;
   color: #39930d;
@@ -105,25 +105,34 @@ body {
 
 .about__left {
   max-width: 599px;
+  flex: 1 1 auto;
 }
 
-.about__left h2 {
+
+.about__right{
+  max-width: 300px;
+  flex: 0 0 100%;
+}
+.about__left p{
+  font-size: 14px;
+  color: #343434;
+}
+h1.about__title {
   margin-bottom: 15px;
   font-size: 24px;
   font-weight: bold;
   color: #39930d;
 }
-
 .about__left p:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.about__right h3 {
+.about__name {
   background: #39930d;
   color: #fff;
   font-size: 18px;
   margin-bottom: 20px;
-  padding: 15px 19px;
+  padding: 10.5px 19px;
 }
 
 .about__list {
@@ -138,8 +147,11 @@ body {
   text-decoration: underline;
   text-transform: uppercase;
   color: #39930d;
+  transition: .3s all linear;
 }
-
+.about__item a:hover{
+  text-decoration: none;
+}
 .footer {
   padding:14px 14px;
   background: #39930d;
