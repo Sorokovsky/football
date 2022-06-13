@@ -97,6 +97,7 @@ body {
 
 .about {
   padding: 25px 0;
+  padding-bottom: 44px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -116,6 +117,7 @@ body {
 .about__left p{
   font-size: 14px;
   color: #343434;
+  line-height: 21px;
 }
 h1.about__title {
   margin-bottom: 15px;
@@ -124,7 +126,7 @@ h1.about__title {
   color: #39930d;
 }
 .about__left p:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .about__name {
