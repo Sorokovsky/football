@@ -96,9 +96,11 @@ body {
   text-align: right;
 }
 .header__image {
-  max-width: 102rem;
   height: auto;
   overflow: hidden;
+}
+.header__image img{
+  width: 7vw;
 }
 
 .about {
@@ -168,7 +170,7 @@ h1.about__title {
   font-size: 14em;
 }
 
-@media (max-width: 826px) {
+@media screen and (max-width: 826px) {
   .about {
     flex-direction: column;
     gap: 30rem;
@@ -181,8 +183,12 @@ h1.about__title {
     flex-basis: 100%;
   }
 }
-
-@media (max-width: 610px) {
+@media screen and (min-width: 1400px) {
+  html{
+    font-size: 1.4px;
+  }
+}
+@media screen and (max-width: 610px) {
   .header {
     flex-direction: column;
     align-items: center;
