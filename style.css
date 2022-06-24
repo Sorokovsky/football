@@ -99,9 +99,7 @@ body {
   height: auto;
   overflow: hidden;
 }
-.header__image img{
-  width: 7vw;
-}
+
 
 .about {
   padding: 25rem 0;
@@ -113,7 +111,6 @@ body {
 }
 
 .about__left {
-  max-width: 599rem;
   flex: 1 1 auto;
 }
 
@@ -186,6 +183,9 @@ h1.about__title {
 @media screen and (min-width: 1400px) {
   html{
     font-size: 1.4px;
+  }
+  .header__image img{
+    width: 7vw;
   }
 }
 @media screen and (max-width: 610px) {
